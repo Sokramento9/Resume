@@ -1,0 +1,64 @@
+body {
+    background-image: url('i18.jpg');
+     background-repeat: no-repeat; 
+     background-size: cover; 
+      /* text-align: center;  */
+ } 
+
+
+.info {
+     max-width: 750px; 
+     margin: auto;
+     padding-top: 160px; 
+     white-space: nowrap;  
+     font-size: 0;
+     text-align: justify;
+}
+
+.info-colon {
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;   
+    margin-right: 5%; 
+    font-size: 14px;
+    margin-bottom: 5%; 
+    }
+
+
+  h2 {
+    position: absolute;
+    top: 125px; right: 825px; 
+     }   
+
+    
+
+
+
+
+/* .avatar {
+    width: 150px;
+    border-radius: 10px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+} */
+
+.border-1 {
+    border-left: 1px solid #C0C0C0;
+    padding-left: 14px;
+    line-height: 15px;
+    
+}
+
+.border-2 {
+    border-left: 1px solid #C0C0C0;
+    padding-left: 14px;
+    line-height: 3px; 
+}
+ 
+ul {
+    list-style-image: url("Галочка4.png");
+}
+
+h3 {
+   background-color: green;
+}
