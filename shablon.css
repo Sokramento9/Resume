@@ -2,17 +2,25 @@ body {
     background-image: url('i18.jpg');
      background-repeat: no-repeat; 
      background-size: cover; 
+     background-position: center center;
+  
+
       /* text-align: center;  */
  } 
 
 
 .info {
      max-width: 750px; 
-     margin: auto;
+     margin: auto;     
      padding-top: 160px; 
      white-space: nowrap;  
      font-size: 0;
-     text-align: justify;
+     /* text-align: justify; */
+     /* position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0; */
 }
 
 .info-colon {
@@ -26,15 +34,11 @@ body {
     }
 
 
-  h2 {
-    position: absolute;
-    top: 125px; right: 825px; 
-     }   
-
-    
-
-
-
+   h2 {
+    position: absolute; 
+    top: 125px; 
+    column-span: all; 
+     }     
 
 /* .avatar {
     width: 150px;
@@ -53,6 +57,7 @@ body {
     border-left: 1px solid #C0C0C0;
     padding-left: 14px;
     line-height: 3px; 
+    
 }
  
 ul {
@@ -60,5 +65,5 @@ ul {
 }
 
 h3 {
-   background-color: green;
+   background-color: rgb(136, 199, 136);
 }
