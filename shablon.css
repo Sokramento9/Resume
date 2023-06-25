@@ -40,19 +40,25 @@ body {
     column-span: all; 
      }     
 
-/* .avatar {
+ /* .avatar {
     width: 150px;
     border-radius: 10px; 
     box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
 } */
 
 .border-1 {
-    border-left: 1px solid #C0C0C0;
+    border-left: 1px solid #ddd;
     padding-left: 14px;
-    line-height: 15px;
-    
+    line-height: 10px;
+      
 }
 
+ .border-2 {
+    border-left: 1px solid #ddd;
+    padding-left: 14px;
+    line-height: 20px; 
+    text-indent: 10%;
+} 
  
 ul {
     list-style-image: url("Галочка4.png");
@@ -60,4 +66,12 @@ ul {
 
 h3 {
    background-color: rgb(136, 199, 136);
+}
+
+.info-colon hr {
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
 }
