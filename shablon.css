@@ -53,12 +53,6 @@ body {
     
 }
 
-.border-2 {
-    border-left: 1px solid #C0C0C0;
-    padding-left: 14px;
-    line-height: 3px; 
-    
-}
  
 ul {
     list-style-image: url("Галочка4.png");
